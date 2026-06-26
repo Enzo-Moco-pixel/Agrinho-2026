@@ -10,8 +10,15 @@ body {
     margin: 0;
 }
 
-button {
-    background-color: #6596ff;
-    color: white;
+button{
+    background:green;
+    color:white;
     font-family: "Bai Jamjuree", sans-serif;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+h1, h2 {
+    font-family: "Roboto", sans-serif;
 }

@@ -7,24 +7,90 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>AGRINHO 2026</title>
 </head>
 <body>
-        <main>
 
-        <div class="passo ativo" id="passo-0">
-            <div>
-                <h1></h1>
-            </div>
-            <p></p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p></p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
-        </div>
+    <div class="passo ativo" id="passo-0">
+        <h1>Tecnologia no Campo</h1>
+        <p>Como a inovação ajuda a produzir mais e preservar o meio ambiente.</p>  
+    </div>
+    <div class="boas-vindas">
+    <h2>Bem-vindo!</h2>
+
+    <label for="nome">Qual é o seu nome?</label><br>
+
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <button onclick="cumprimentar()">
+        Entrar
+    </button>
+    <p id="mensagem"></p>
+    </div>  
+    <div class="acessibilidade">
+    <button onclick="aumentarFonte()">
+        A+
+    </button>
+
+    <button onclick="diminuirFonte()">
+        A-
+    </button>
+    </div>
+    <div>
+<section>
+        <h2>O que é?</h2>
+        <p> A tecnologia vem transformando a agricultura. Com novos equipamentos e sistemas, os produtores conseguem aumentar a produção e reduzir desperdícios, cuidando melhor do solo e da água. </p>
+</section>
+
+<section>
+    <h2>Tecnologias usadas</h2>
+
+    <div>
+        <h3>Máquinas Modernas</h3>
+        <p>Facilitam o trabalho e aumentam a produtividade.</p>
+    </div>
+
+    <div>
+        <h3>Drones</h3>
+        <p>Monitoram plantações e identificam problemas rapidamente.</p>
+    </div>
+
+    <div>
+        <h3>Irrigação Inteligente</h3>
+        <p>Economiza água e melhora o desenvolvimento das plantações.</p>
+    </div>
+
+    <div>
+        <h3>Sensores</h3>
+        <p>Coletam informações sobre o solo e ajudam na tomada de decisões.</p>
+    </div>
+</section>
+<section>
+    <h2>Benefícios</h2>
+    <ul>
+        <li>✔ Produção maior.</li>
+        <li>✔ Economia de água.</li>
+        <li>✔ Menor impacto ambiental.</li>
+        <li>✔ Melhor qualidade dos alimentos.</li>
+        <li>✔ Mais sustentabilidade.</li>
+    </ul>
+</section>
+<section>
+    <h2>Conclusão</h2>
+    <p> A tecnologia é uma grande aliada do campo. Ela ajuda o agricultor a produzir alimentos com mais eficiência e ao mesmo tempo preservar o meio ambiente, contribuindo para um futuro mais sustentável. </p>
+    <button onclick="mensagem()">Clique aqui</button>
+</section>
+
+        <main>
+    <div>
+        <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+        <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+    </div>
         </main>
 
     <script src="script.js"></script>
