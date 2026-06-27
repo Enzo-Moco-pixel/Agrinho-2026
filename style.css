@@ -1,16 +1,15 @@
-
 body {
-    background-color: #000000;
+    background-color: #000;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
 }
 
-.container{
+.container {
     width: 90%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 button {
@@ -25,4 +24,5 @@ button:hover{
 
 h1, h2, h3, h4 {
     font-family: "Roboto", sans-serif;
+    margin-top: 0;
 }
