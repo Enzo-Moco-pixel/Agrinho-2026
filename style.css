@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
     margin-top: 0;
 }
 
-img {
-    width: 300px;
+.imagem-topo {
+    width: 300px !important;
     height: auto;
 }
