@@ -10,7 +10,7 @@ avanca.forEach(button => {
     })
 })
 function mensagem(){
-    alert("A TECNOLOGIA É FUNDAMENTAL PARA UM CAMPO MELHOR E MAIS SUTENTÁVEL!");
+    alert("A TECNOLOGIA É FUNDAMENTAL PARA UM CAMPO MELHOR E MAIS SUSTENTÁVEL!");
 }
 function cumprimentar() {
 
